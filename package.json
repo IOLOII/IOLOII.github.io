@@ -1,0 +1,23 @@
+{
+  "name": "IOLOII.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOLOII/IOLOII.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IOLOII/IOLOII.github.io/issues"
+  },
+  "homepage": "https://github.com/IOLOII/IOLOII.github.io#readme",
+  "dependencies": {
+    "gh-pages": "5.0.0"
+  }
+}
