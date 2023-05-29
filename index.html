@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOLOII</title>
+    <style>
+      body {
+        margin: 0 auto;
+        height: auto;
+        width: min-content;
+        transform: translateY(calc(50vh - 50%));
+        font-size: 3rem;
+        font-family: 'Party LET', 'Futura', 'Luminari', 'Chalkduster', 'Herculanum';
+        color: white;
+        background-color: black;
+      }
+    </style>
+    <script>
+      window.onload = function () {
+        const fontFamilys = ['Party LET', 'Futura', 'Luminari', 'Chalkduster', 'Herculanum']
+
+        let random = Math.floor(Math.random() * 5)
+        let fontFamily = fontFamilys[random]
+
+        document.body.style.fontFamily = fontFamily
+
+      }
+    </script>
+  </head>
+
+  <body>
+    Hi,&emsp; Here is IOLOII space.
+  </body>
+
+</html>
